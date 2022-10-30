@@ -35,6 +35,7 @@ barplot(table(smn$TMAX),
 # Vemos la database 
 View(smn)
 
+# GRÁFICO 1: 
 # Con ggplot armamos un gráfico de barras con más información
 ggplot(data = smn) + 
   geom_bar(mapping = aes(x = TMAX)) + 
