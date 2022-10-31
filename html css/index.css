@@ -38,7 +38,7 @@ button:hover{
     margin: auto;
 }
 
-.color-acento{ color:blueviolet; }
+.color-acento{ color:rgb(131, 226, 43); }
 
 header{
     background-color: rgb(245,245,245);
@@ -49,7 +49,7 @@ header .logo{
     margin: 0;
     padding: 25px 30px;
     font-weight: bold;
-    color: blueviolet;
+    color: rgb(95, 226, 43);
     font-size: 1.6em;
 }
 
@@ -83,7 +83,7 @@ header a:hover{
     justify-content: center;
     text-align: center;
     flex-direction: column;
-    height: 90vh;
+    height: 100vh;
     background-image: linear-gradient(
         0deg,
         rgba(0,0,0,0.5),
@@ -167,7 +167,7 @@ header a:hover{
 
 #caracteristicas .container{
     text-align: center;
-    padding: 250px 12px;
+    padding: 50px 12px;
 }
 
 #caracteristicas li{
@@ -252,10 +252,10 @@ footer .container{
     }
 
     #somos-hellfish .img-container{
-        background-image: url("media/somos-proya.jpg");
+        background-image: url("amazonas.jpg");
         background-size: cover;
         background-position: center center;
-        height: 500px;
+        height: 800px;
         width: 400px; 
     }
 
@@ -292,7 +292,7 @@ footer .container{
             rgba(0,0,0,0.5),
             rgba(0,0,0,0.5)
         )
-        ,url("media/front-end-cropped.jpg");
+        ,url("Blue\ Green\ Yellow\ Illustrated\ Global\ Warming\ Social\ Media\ Post.png");
 
     }
 
@@ -302,7 +302,7 @@ footer .container{
             rgba(0,0,0,0.5),
             rgba(0,0,0,0.5)
         )
-        ,url("media/full-stack-cropped.jpg");
+        ,url("amazonas.jpg");
     }
 
     .carta:nth-child(3){
@@ -311,7 +311,7 @@ footer .container{
             rgba(0,0,0,0.5),
             rgba(0,0,0,0.5)
         )
-        ,url("media/python-cropped.jpg");
+        ,url("Captura2.PNG");
 
     }
 
